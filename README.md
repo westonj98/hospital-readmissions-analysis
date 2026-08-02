@@ -40,9 +40,41 @@ The purpose of this project is to help hospital leaders understand which patient
 - Excel
 - GitHub
 
+## Dataset
+
+This project uses the public Diabetes 130-US Hospitals dataset from the UCI Machine Learning Repository.
+
+The dataset contains deidentified hospital encounters from multiple United States hospitals and includes patient demographics, diagnoses, hospital utilization, medications, and readmission outcomes.
+
+The primary outcome field is `readmitted`, which includes:
+
+- `<30`: Readmitted within 30 days
+- `>30`: Readmitted after 30 days
+- `NO`: No recorded readmission
+
+For this project, the main 30-day readmission measure will classify:
+
+- `<30` as readmitted within 30 days
+- `>30` and `NO` as not readmitted within 30 days
+
+The original raw data will remain unchanged. Cleaning and analysis will be performed on separate working files.
+
+
 ## Project Status
 
-This project is currently in development.
+## Project Status
+
+Day 2 completed:
+
+- Created local project folders
+- Downloaded the public hospital readmission dataset
+- Saved the original raw data
+- Created a separate working copy
+- Started the data dictionary
+- Documented the dataset source
+- Recorded initial data inspection notes
+
+Next step: perform formal data quality checks.
 
 ## Planned Project Steps
 
